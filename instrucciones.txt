@@ -1,0 +1,38 @@
+npm init -y
+npm i webpack webpack-cli -D
+npx webpack
+npx webpack --mode production
+npx webpack --mode development
+
+/* modo 1 (SOLO JAVASCRIPT)*/
+webpack.config.js
+/*
+const path = require('path');
+
+module.exports = {
+  entry: './src/index.js',
+  output: {
+    filename: 'main.js',
+    path: path.resolve(__dirname, 'dist'),
+  },
+};
+*/
+npx webpack --config webpack.config.js
+
+
+
+/* modo 2 avanzado (CSS,HTML Y JAVASCRIPT) */
+webpack.common.js
+webpack.dev.js
+webpack.prod.js
+npm install --save-dev mini-css-extract-plugin
+npm run build
+
+
+
+
+
+/* UPGRADE ALL VERSION IN WEBPACK.JS*/
+npm install -g npm-check-updates
+ncu
+ncu -u (ACTUALIZAR LA ULTIMA VERSION de los paquetes)
