@@ -23,4 +23,4 @@ in this software
 
 3.npm run build
 
-4.GET http://{YOU_SERVER}/pagination_jsphp_sql
+4.GET http://{YOU_SERVER}/pagination_jsphp_sql/public
