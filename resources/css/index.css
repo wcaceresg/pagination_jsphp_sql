@@ -1,6 +1,21 @@
-.comon2333{
-	display: inline-block;
+.active-currentpage{
+    color: #fff !important;
+    background-color: #3490dc !important;
+    border-color: #3490dc !important;
 }
-body{
-	background: red;
+.pagination-left{
+    display:inline-flex;
+}
+.pagination{
+    border-radius: .25rem !important;
+    display: -ms-flexbox !important;
+    display: inline-flex !important;
+    list-style: none !important;
+    padding-left: 0 !important;
+    float: right !important;
+}
+
+.select-limitador{
+    display: inline-block !important;
+      width: 100px !important;
 }

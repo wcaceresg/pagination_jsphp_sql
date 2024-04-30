@@ -8,7 +8,14 @@ module.exports = {
             //"./resources/lib/bootstrap.min.js",
             "./resources/js/vendor.js"
             ],
-    main: "./resources/js/index.js"        
+   // main: "./resources/js/index.js",
+    /*pasarela_pre:[
+             "./resources/js/izipay.js"
+    ],
+    pasarela_post:[
+             "./resources/js/izipay_post.js"
+    ],
+    */           
   },
   /*plugins:[
    new HtmlWebpackPlugin({

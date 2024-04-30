@@ -1,0 +1,3 @@
+RewriteEngine On
+Options +FollowSymLinks
+RewriteRule ^contrato/(.*)$		route/contrato.php?lng=$1 [L]
