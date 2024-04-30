@@ -15,3 +15,9 @@ sell copies of the software.
 
 The above copyright notice and this permission notice will be included
 in this software
+
+
+1.git clone https://github.com/wcaceresg/pagination_jsphp_sql.git
+2.npm install
+3.npm run build
+4.GET http://localhost/pagination_jsphp_sql
